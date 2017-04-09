@@ -1,4 +1,4 @@
-FROM tozd/nginx
+FROM tozd/nginx:ubuntu-xenial
 
 VOLUME /var/log/nullmailer
 
