@@ -1,3 +1,7 @@
+# tozd/nginx-mailer
+
+<https://gitlab.com/tozd/docker/nginx-mailer>
+
 Image extending [tozd/nginx](https://github.com/tozd/docker-nginx) image with a simple e-mailing out of the container
 using [nullmailer](http://untroubled.org/nullmailer/).
 
