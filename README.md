@@ -2,7 +2,7 @@
 
 <https://gitlab.com/tozd/docker/nginx-mailer>
 
-Image extending [tozd/nginx](https://github.com/tozd/docker-nginx) image with a simple e-mailing out of the container
+Image extending [tozd/nginx](https://gitlab.com/tozd/docker/nginx) image with a simple e-mailing out of the container
 using [nullmailer](http://untroubled.org/nullmailer/).
 
 You should set `ADMINADDR` environment variable to an e-mail address to which errors and failures should
