@@ -1,4 +1,4 @@
-FROM tozd/nginx:ubuntu-focal
+FROM registry.gitlab.com/tozd/docker/nginx:ubuntu-focal
 
 VOLUME /var/log/nullmailer
 

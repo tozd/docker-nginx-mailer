@@ -1,4 +1,4 @@
-FROM tozd/nginx:ubuntu-xenial
+FROM registry.gitlab.com/tozd/docker/nginx:ubuntu-xenial
 
 VOLUME /var/log/nullmailer
 

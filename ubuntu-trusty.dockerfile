@@ -1,4 +1,4 @@
-FROM tozd/nginx:ubuntu-trusty
+FROM registry.gitlab.com/tozd/docker/nginx:ubuntu-trusty
 
 VOLUME /var/log/nullmailer
 

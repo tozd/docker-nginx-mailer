@@ -1,4 +1,4 @@
-FROM tozd/nginx:ubuntu-bionic
+FROM registry.gitlab.com/tozd/docker/nginx:ubuntu-bionic
 
 VOLUME /var/log/nullmailer
 
