@@ -9,7 +9,7 @@ Available as:
 
 ## Image inheritance
 
-[`tozd/base`](https://gitlab.com/tozd/docker/base) ← [`tozd/runit`](https://gitlab.com/tozd/docker/runit) ← [`tozd/nginx`](https://gitlab.com/tozd/docker/nginx) ← `tozd/mailer`
+[`tozd/base`](https://gitlab.com/tozd/docker/base) ← [`tozd/runit`](https://gitlab.com/tozd/docker/runit) ← [`tozd/nginx`](https://gitlab.com/tozd/docker/nginx) ← `tozd/nginx-mailer`
 
 See also [`tozd/mailer`](https://gitlab.com/tozd/docker/mailer).
 
