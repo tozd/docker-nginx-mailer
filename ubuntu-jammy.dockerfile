@@ -1,4 +1,4 @@
-FROM registry.gitlab.com/tozd/docker/nginx:ubuntu-xenial
+FROM registry.gitlab.com/tozd/docker/nginx:ubuntu-jammy
 
 VOLUME /var/log/nullmailer
 VOLUME /var/spool/nullmailer
