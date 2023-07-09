@@ -1,6 +1,10 @@
 #!/bin/bash -e
 
-mkdir -p /var/log/nullmailer
-chown nobody:nogroup /var/log/nullmailer
+if [ "${LOG_TO_STDOUT}" != "1" ]; then
+  mkdir -p /var/log/nullmailer
+  chown nobody:nogroup /var/log/nullmailer
 
-exec chpst -u nobody:nogroup svlogd -tt /var/log/nullmailer
+  exec chpst -u nobody:nogroup svlogd -tt /var/log/nullmailer
+else
+  exec chpst -u nobody:nogroup regex2json "^\\s*(?P<msg>.+?)\\s*$"
+fi

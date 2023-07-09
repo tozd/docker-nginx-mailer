@@ -5,6 +5,7 @@ VOLUME /var/spool/nullmailer
 
 ENV ADMINADDR=
 ENV REMOTES=
+ENV LOG_TO_STDOUT=0
 
 RUN apt-get update -q -q && \
   apt-get install nullmailer --no-install-recommends --yes --force-yes && \
