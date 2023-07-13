@@ -39,6 +39,14 @@ using [nullmailer](http://untroubled.org/nullmailer/).
 
 When `LOG_TO_STDOUT` is set to `1`, Docker image logs output to stdout and stderr. All stdout output is JSON.
 
+This image primarily serves as a base image for other images which need to send e-mails out.
+It does not really deliver e-mails to wide Internet, but just relays it to the e-mail server
+you configure in `REMOTES`. But programs in your extended images do not have to worry
+about all that and can just use `sendmail` program locally.
+
+If you need sending e-mails to wide Internet, consider using [`tozd/postfix`](https://gitlab.com/tozd/docker/postfix)
+Docker image. You can also then set `REMOTES` to send all e-mail to a `tozd/postfix` container.
+
 ## GitHub mirror
 
 There is also a [read-only GitHub mirror available](https://github.com/tozd/docker-nginx-mailer),
