@@ -37,6 +37,8 @@ See also [`tozd/mailer`](https://gitlab.com/tozd/docker/mailer).
 Image extending [tozd/nginx](https://gitlab.com/tozd/docker/nginx) image with a simple e-mailing out of the container
 using [nullmailer](http://untroubled.org/nullmailer/).
 
+When `LOG_TO_STDOUT` is set to `1`, Docker image logs output to stdout and stderr. All stdout output is JSON.
+
 ## GitHub mirror
 
 There is also a [read-only GitHub mirror available](https://github.com/tozd/docker-nginx-mailer),
