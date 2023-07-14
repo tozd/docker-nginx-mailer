@@ -41,9 +41,6 @@ cleanup_network=1
 echo "Preparing"
 apk add --no-cache jq
 
-export MAILNAME=test
-export MY_NETWORKS="$(docker network inspect testnet | jq -r '.[0].IPAM.Config[0].Subnet') 127.0.0.0/8"
-
 echo "Running Docker image"
 docker run -d --name test --network testnet -e LOG_TO_STDOUT=1 -e REMOTES=mailhog "${CI_REGISTRY_IMAGE}:${TAG}"
 cleanup_docker=1
