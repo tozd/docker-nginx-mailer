@@ -24,4 +24,4 @@ if [ -n "$HOSTNAME" ]; then
   echo "$HOSTNAME" > /etc/mailname
 fi
 
-exec chpst -u mail:mail /usr/sbin/nullmailer-send 2>&1
+exec chpst -u mail:mail /usr/sbin/nullmailer-send
