@@ -20,6 +20,7 @@ See also [`tozd/mailer`](https://gitlab.com/tozd/docker/mailer).
 - `ubuntu-bionic`: nullmailer 2.1
 - `ubuntu-focal`: nullmailer 2.2
 - `ubuntu-jammy`: nullmailer 2.2
+- `ubuntu-noble`: nullmailer 2.2
 
 ## Volumes
 
