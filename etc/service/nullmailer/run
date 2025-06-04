@@ -1,5 +1,7 @@
 #!/bin/bash -e
 
+trap 'echo "ERROR: $BASH_SOURCE:$LINENO $BASH_COMMAND" >&2' ERR
+
 chown mail /var/spool/nullmailer
 
 # If directory is empty, we restore it from our copy of initial files
