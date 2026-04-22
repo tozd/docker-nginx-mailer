@@ -21,6 +21,7 @@ See also [`tozd/mailer`](https://gitlab.com/tozd/docker/mailer).
 - `ubuntu-focal`: nullmailer 2.2
 - `ubuntu-jammy`: nullmailer 2.2
 - `ubuntu-noble`: nullmailer 2.2
+- `ubuntu-resolute`: nullmailer 2.2
 
 ## Volumes
 
