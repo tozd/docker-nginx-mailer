@@ -30,7 +30,7 @@ See also [`tozd/mailer`](https://gitlab.com/tozd/docker/mailer).
 
 ## Variables
 
-- `ADMINADDR`: If set, all e-mails to system users inside a container are send to this address.
+- `ADMINADDR`: If set, all e-mails to system users inside a container are sent to this address.
 - `REMOTES`: E-mail relay server the container should be using to send e-mails.
 - `LOG_TO_STDOUT`: If set to `1` output logs to stdout (retrievable using `docker logs`) instead of log volumes.
 
